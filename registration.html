@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <title>CCC Registration</title> 
+    <link href="C:\Coding Projects\Canyon Creek Championship\style.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <header class="registrationHeader">
+        <h1>Registration</h1>
+        <ul class="navigation">
+            <a href="./index.html"><li>About</li></a>
+            <a href="./current.html"><li>Current</li></a>
+            <a href="./past-championships.html"><li>Past Championships</li></a>
+            <a href="./registration.html"><li>Registration</li></a>
+            <a href="./contact.html"><li>Contact The TD</li></a>
+        </ul>
+    </header>
+
+    <main class="registrationMain">
+        <!-- <p>Registration is closed for the current Canyon Creek Championship of Summer 2023. Please check back later for updates on registration for CCC Winter 2023.</p> -->
+        <form action="" method="POST">
+            <h2>Fill Out the Form Below to Register for the Summer 2023 Canyon Creek Championship!</h2>
+            <br>
+
+            <label for="name">First and Last Name: </label>
+            <input id="name" name="name" type="text" required>
+            <br>
+
+            <label for="pdgaNum">PDGA Number: </label>
+            <input id="pdgaNum" name="pdgaNum" type="number" required>
+            <br>
+
+            <label for="email">Email Address: </label>
+            <input id="email" name="email" type="text" required>
+            <br>
+
+            <label for="ace">$5 Ace Pot? </label>
+            <input id="ace" name="extras" type="checkbox" value="$5 Ace Pot">
+            <br>
+
+            <label for="ctp">CTP Pot?</label>
+            <input id="ctp" name="extras" type="checkbox" value="CTP Pot">
+            <br>
+
+            <input type="submit">
+        </form>
+    </main>  
+</body>
